@@ -7,26 +7,77 @@
     font-family: 'Kanit', sans-serif;
 }
 
-.logo{
-    width: 200px;
+.contenedor{
+ width: 100%;
+ 
+    
+    
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "caja1  caja1   caja4   caja3"
+    "caja1  caja1   caja2   caja5";
+    
+    position: relative;
+  
+    
 }
 
-header{
-    background-color: aqua;
-    display: flex;
-    gap: 20px;
+.caja {
+    border: solid red 1px;
+    justify-content: center;
+    
+    
 }
 
-.menu{
+.caja1{
+    grid-area: caja1;
     display: flex;
-    gap: 15px;
-    list-style-type: none;
-    align-items: center;
+}
+
+.caja1 img{
     height: 100%;
+    width: 100%;
 }
 
-.menu__item a {
-    text-decoration: none;
+.caja2{
+    grid-area: caja2;
+    display: flex;
+}
+
+.caja2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.caja3{
+    grid-area: caja3;
+    display: flex;
+}
+
+.caja3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.caja4{
+    grid-area: caja4;
+    display: flex;
+}
+
+.caja4 img{
+    height: 100%;
+    width: 100%;
+}
+
+.caja5{
+    grid-area: caja5;
+    display: flex;
+}
+.caja5 img{
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -56,4 +107,4 @@ footer {
 .face {
     width: 40px;
     display: inline;
-}
+} */
