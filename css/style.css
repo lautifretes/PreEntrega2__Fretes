@@ -7,3 +7,17 @@
 body {
     background-color: rgb(0, 162, 255);
 }
+
+footer  {
+background-color: blueviolet;
+color: white;
+}
+
+.divRedes ul li{
+    display: inline;
+}
+
+.insta, .face{
+    width: 40px;
+    display: inline;
+}
